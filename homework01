@@ -1,0 +1,69 @@
+#include<stdio.h>
+
+
+int print_title_screen()
+{
+	char screen{500];
+	
+	int t = 0;
+	while(t<500)
+	{
+
+		screen[i]='0';
+		t=t+1;
+	}
+	printf("Answer Game");
+	printf("1. Start Game");
+	printf("2. How to Play");
+	printf("3. Exit");
+
+	return 0;
+}
+
+
+int print_how_to_play_screen()
+{
+	char screen[500];
+
+	int i = 0;
+	while(i<500)
+	{
+		screen[i]='0';
+		i=i+1;
+	}
+	printf("When asked,");
+	printf("choose the corect answer to pass to the next level");
+	
+	return 0;
+}
+
+ int print exit_screen()
+ {
+	char screen[500];
+
+	int e = 0;
+	while(e<500);
+	{
+		screen[e]='0';
+		e=e+1;
+	}
+	printf("Game Exit? yes or no");
+
+	return 0;
+ }
+
+ int main()
+ {
+	int game_state = 1;
+
+	while(game_state)
+	{
+		printf("input=2");
+		scanf("%d",&how_to_play_screen);
+		printf("input=3");
+		scanf("%d",&exit_screen);
+	}
+
+
+Ó
+}
